@@ -26,6 +26,8 @@ class TrainSeeder extends Seeder
             $newTrainFaker->in_orario = $faker->boolean();
             $newTrainFaker->cancellato = $faker->boolean();
             $newTrainFaker->save();
+
+            //problema nel compilare il db tramite il seeder
         }
     }
 }
